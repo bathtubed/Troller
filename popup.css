@@ -1,0 +1,115 @@
+ul
+{
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+li
+{
+	padding: 3px;
+	border-width: 1px;
+	border-radius: 3px;
+	border-style: solid;
+	border-color: black;
+	min-width: 100px;
+	cursor: pointer;
+	color: white;
+}
+
+#none
+{
+	background-color: white;
+	color: black;
+}
+
+#karkat
+{
+	background-color: grey;
+}
+
+#aradia
+{
+	background-color: #a10000;
+}
+
+#tavros
+{
+	background-color: #a15000;
+}
+
+#sollux
+{
+	background-color: #a1a100;
+}
+
+#nepeta
+{
+	background-color: #416600;
+}
+
+#kanaya
+{
+	background-color: #008141;
+}
+
+#terezi
+{
+	background-color: #008282;
+}
+
+#vriska
+{
+	background-color: #005682;
+}
+
+#equius
+{
+	background-color: #000056;
+}
+
+#eridan
+{
+	background-color: #6a006a;
+}
+
+#feferi
+{
+	background-color: #77003c;
+}
+
+#gamzee
+{
+	background-color: #2b0057;
+}
+
+#owataneese
+{
+	background-color: brown;
+}
+
+#hell
+{
+	background-color: black;
+}
+
+li>img
+{
+	background-color: white;
+	margin: 0px;
+	margin-right: 2px;
+	height: 20px;
+	padding: 2px;
+}
+
+li.selected>img
+{
+	background-color: orange;
+}
+
+.selected
+{
+	border-width: 2px;
+	color: orange;
+	font-weight: bold;
+}

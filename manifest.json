@@ -1,0 +1,27 @@
+{
+	"manifest_version": 2,
+	"name": "Troller",
+	"description": "Happy Birthday Xining <>",
+	"version": "1.1",
+	"background":
+	{
+		"scripts": ["background.js"]
+	},
+	"permissions":
+	[
+		"tabs"
+	],
+	"content_scripts":
+	[
+		{
+			"matches": ["http://*/*", "https://*/*"],
+			"js": ["replacer.js"],
+			"run_at": "document_end"
+		}
+	],
+	"browser_action":
+	{
+		"default_popup": "popup.html",
+		"default_icon": "Sgrub_Pre-Scratch_Logo.png"
+	}
+}
